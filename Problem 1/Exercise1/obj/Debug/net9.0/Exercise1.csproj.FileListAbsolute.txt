@@ -12,3 +12,4 @@ C:\Users\emily\Documents\GitHub\DailyExercices\Problem 1\Exercise1\obj\Debug\net
 C:\Users\emily\Documents\GitHub\DailyExercices\Problem 1\Exercise1\obj\Debug\net9.0\Exercise1.pdb
 C:\Users\emily\Documents\GitHub\DailyExercices\Problem 1\Exercise1\obj\Debug\net9.0\Exercise1.genruntimeconfig.cache
 C:\Users\emily\Documents\GitHub\DailyExercices\Problem 1\Exercise1\obj\Debug\net9.0\ref\Exercise1.dll
+C:\Users\emily\Documents\GitHub\DailyExercices\Problem 1\Exercise1\obj\Debug\net9.0\Exercise1.sourcelink.json

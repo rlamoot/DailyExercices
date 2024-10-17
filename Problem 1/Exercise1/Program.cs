@@ -6,23 +6,24 @@ using System.Collections.Generic;
 
 class Program
 {
-    static bool HasPairwithSum(int[] array, int k)
-    {
-        HashSet <int> Seen = new HashSet <int>();
-        foreach (int i in array){
+    static bool HasSeen(int[] Array, int k){
+        HashSet<int> seen = new HashSet<int>();
+        foreach(int i in Array){        
             int complement = k - i;
-            if (Seen.Contains(complement)){
+            Console.WriteLine(complement);
+            if  (seen.Contains(complement)){
                 return true;
             }
-            Seen.Add(i);
+            seen.Add(i);
         }
+        
         return false;
-    }
 
+    }
     static void Main(string[] args){
-        int[] array = { 10, 15, 3, 7};
-        int k = 18;
-        bool result = HasPairwithSum(array, k);
+        int[] arr = { 10, 15, 3, 14};
+        int k = 17;
+        var result = HasSeen(arr, k);
         Console.WriteLine(result);
     }
 
